@@ -1,10 +1,14 @@
 package br.com.dio.api_rest.domain.model;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.math.BigDecimal;
 
 @Entity(name = "tb_card")
+@Getter
+@Setter
 public class Card {
 
     @Id
