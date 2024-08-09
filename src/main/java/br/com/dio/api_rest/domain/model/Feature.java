@@ -1,4 +1,4 @@
-package br.com.dio.api_rest.model;
+package br.com.dio.api_rest.domain.model;
 
 import jakarta.persistence.Entity;
 
